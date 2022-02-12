@@ -214,7 +214,8 @@ function App() {
       <div className="flex w-80 mx-auto items-center mb-8 mt-20">
        <div> <h1 className="text-xl ml-2.5 grow font-bold dark:text-white">
           {GAME_TITLE}
-        </h1> <br/><h3 className="text-m ml-2.5 grow font-bold dark:text-white">
+        </h1>
+        <h5 className="text-xs ml-2.5 grow font-bold dark:text-white">
           by <a
           href="https://twitter.com/iatropartners"
           className="underline font-bold"
