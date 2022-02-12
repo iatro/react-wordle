@@ -220,7 +220,7 @@ function App() {
           href="https://twitter.com/iatropartners"
           className="font-bold"
         >
-          iatro.
+          ❤️ iatro.
         </a>{' '}
         </h5>
         <InformationCircleIcon
