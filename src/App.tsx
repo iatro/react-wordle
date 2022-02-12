@@ -26,6 +26,7 @@ import {
   ALERT_TIME_MS,
   REVEAL_TIME_MS,
   GAME_LOST_INFO_DELAY,
+  WELCOME_TIME_MS,
 } from './constants/settings'
 import {
   isWordInWordList,
@@ -91,6 +92,7 @@ function App() {
   const [isMissingPreviousLetters, setIsMissingPreviousLetters] =
     useState(false)
   const [missingLetterMessage, setIsMissingLetterMessage] = useState('')
+  const isFirstGame = localStorage.getItem('gameState') === null
 
   useEffect(() => {
     if (isDarkMode) {
@@ -132,7 +134,12 @@ function App() {
         setIsStatsModalOpen(true)
       }, GAME_LOST_INFO_DELAY)
     }
-  }, [isGameWon, isGameLost])
+    if (isFirstGame) {
+      setTimeout(() => {
+        setIsInfoModalOpen(true)
+      }, WELCOME_TIME_MS)
+    }
+  }, [isGameWon, isGameLost, isFirstGame])
 
   const onChar = (value: string) => {
     if (
