@@ -12,13 +12,13 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           <p className="text-sm text-gray-500 dark:text-gray-300">
      This is a medical version of the word guessing game we all know and
         love!
-<br />
+<br /><br />
         Built for #MedTwitter by <a
           href="https://twitter.com/iatropartners"
           className="underline font-bold"
         >
           @iatro
-        </a>{' '}
+        </a>{' '}<br /><br />
 </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the word in 6 tries. After each guess, the color of the tiles will
