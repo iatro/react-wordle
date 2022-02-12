@@ -222,11 +222,11 @@ function App() {
      
     
 
-<div className="ml-2.5 grow"><h1 className="text-xl font-bold">{GAME_TITLE}</h1>❤️ <a
+<div className="ml-2.5 grow"><h1 className="text-xl font-bold">{GAME_TITLE}</h1><a
           href="https://twitter.com/iatropartners"
           className="font-bold"
         >
-        iatro.
+        ❤️ iatro.
         </a>{' '}</div>
 
         <InformationCircleIcon
