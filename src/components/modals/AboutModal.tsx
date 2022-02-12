@@ -16,7 +16,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           href="https://twitter.com/iatropartners"
           className="underline font-bold"
         >
-          @iatro
+          @iatropartners
         </a>{' '}
 <br /><br />
         Based on the Open Source {' '}

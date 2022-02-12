@@ -17,7 +17,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           href="https://twitter.com/iatropartners"
           className="underline font-bold"
         >
-          @iatro
+          @iatropartners
         </a>{' '}<br /><br />
 </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
