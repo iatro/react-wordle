@@ -216,9 +216,9 @@ function App() {
           {GAME_TITLE}
         </h1>
         <h5 className="text-xs ml-2.5 grow font-bold dark:text-white">
-          by <a
+          <a
           href="https://twitter.com/iatropartners"
-          className="underline font-bold"
+          className="font-bold"
         >
           @iatropartners
         </a>{' '}
