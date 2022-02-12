@@ -9,6 +9,17 @@ type Props = {
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+          <p className="text-sm text-gray-500 dark:text-gray-300">
+     This is a medical version of the word guessing game we all know and
+        love!
+<br />
+        Built for #MedTwitter by <a
+          href="https://twitter.com/iatropartners"
+          className="underline font-bold"
+        >
+          @iatro
+        </a>{' '}
+</p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the word in 6 tries. After each guess, the color of the tiles will
         change to show how close your guess was to the word.
