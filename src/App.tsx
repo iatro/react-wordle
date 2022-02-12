@@ -212,17 +212,16 @@ function App() {
   return (
     <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
       <div className="flex w-80 mx-auto items-center mb-8 mt-20">
-      <h1 className="text-xl ml-2.5 grow font-bold dark:text-white">
-          {GAME_TITLE}
-        </h1>
-        <h5 className="text-xs ml-2.5 grow font-bold dark:text-white">
-          <a
+     
+    
+
+<div class="ml-2.5 grow"><h1 class="text-xl font-bold">{GAME_TITLE}</h1>❤️ <a
           href="https://twitter.com/iatropartners"
           className="font-bold"
         >
-          ❤️ iatro.
-        </a>{' '}
-        </h5>
+        iatro.
+        </a>{' '}</div>
+
         <InformationCircleIcon
           className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
           onClick={() => setIsInfoModalOpen(true)}
