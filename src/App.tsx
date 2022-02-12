@@ -222,7 +222,7 @@ function App() {
         >
           @iatropartners
         </a>{' '}
-        </h3></p>
+        </h5></p>
         <InformationCircleIcon
           className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
           onClick={() => setIsInfoModalOpen(true)}
